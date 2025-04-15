@@ -1,0 +1,18 @@
+# node_modules
+node_modules/
+
+# dotenv
+.env
+
+# log files
+*.log
+
+# Prisma
+backend/prisma/dev.db
+
+# build
+dist/
+build/
+
+# IDE settings
+.vscode/
