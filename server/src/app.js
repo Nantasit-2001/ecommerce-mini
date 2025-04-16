@@ -17,6 +17,7 @@ app.use(express.json());  // เพื่อให้แปลงข้อมู
 app.use('/auth', authRoutes); // ตั้งค่าให้ใช้งาน route /auth สำหรับสมัครสมาชิกและเข้าสู่ระบบ
 app.use('/products', productRoutes); // ตั้งค่าให้ใช้งาน route /products สำหรับการจัดการสินค้า
 app.use('/cart', cartRoutes); 
+app.use('/cart', cartRoutes);
 
 // ตั้งค่า Port ที่จะใช้
 const PORT = process.env.PORT || 5000;
